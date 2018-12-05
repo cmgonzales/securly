@@ -1,27 +1,26 @@
-/*!
- * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
- */
-
-body {
-  padding-top: 54px;
+html, body, section { 
+  height: 100%;
 }
 
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
-}
 .navbar{
- background-color: white !important;
+ background-color:white !important;
+ padding-left: 30px;
+ padding-right: 30px;
+ position:static;
 }
 
+.shadow{
+box-shadow: 2px 2px blue!important;
+color: blue;
+border-radius: 25px !important;
+}
 
+.navbar-toggler{
+  background-color: grey!important;
+}
 .logo{
  height: 25px;
  width: 75px;
-
 }
 .nav-link{
   padding-right:20px !important;
@@ -32,16 +31,74 @@ body {
   color: black!important;
 }
 
-.carousel-item {
-  height: 65vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.login{
+  margin-bottom: 10px;
+  
 }
 
-.portfolio-item {
-  margin-bottom: 30px;
+.row{
+
+  padding-left: 40px;
+  
 }
+
+.intro{
+  color: white;
+  font-size: 2.5vw;
+  font-family: 'Roboto Slab', serif;
+}
+.header{
+  padding-top: 50px;
+  padding-left: 70px;
+}
+
+.login{
+  width: 20%;
+  margin-bottom: 40px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 10px;
+  font-weight: bold;
+}
+.view{  
+position: absolute;
+  padding-top: 50px;
+  max-height:500px;;
+  width: 40%;
+  margin-left: 500px;
+}
+
+
+
+.btns{
+  border-radius: 25px !important;
+  color: black !important;
+  background-color: white !important;
+}
+.mobile-header{
+
+  height: 30px;
+  width: 90px;
+}
+#view-activity{
+  color: white;
+  font-size: 40px;
+  
+}
+header{
+  padding-bottom: 135px;
+  background-color: rgb(116, 113, 113);
+ 
+ 
+}
+
+ .home{
+ z-index: 0;
+ position: absolute
+}
+.note{
+  z-index: 1;
+}
+
+
+
+
