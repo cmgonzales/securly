@@ -78,18 +78,18 @@ font-family: 'Roboto Slab', serif;
 position: absolute;
 
   padding-top: 10px;
-  max-height:500px;;
+  height:auto;
   width: 40%;
-  margin-left: 500px;
+  right: 120px;
 }
 
 .home-secure{
   position: absolute;
 
   padding-top: 60px;
-  max-height:500px;;
+  max-height:auto;
   width: 40%;
-  margin-left: 450px;
+  right: 240px; 
 }
 
 .security{
@@ -104,6 +104,14 @@ position: absolute;
   border-radius: 25px !important;
   color: black !important;
   background-color: white !important;
+}
+
+.buy{
+  border-radius: 25px ;
+  color: white;
+  background-color: blue;
+  padding: 10px 20px;
+  margin-bottom: 20px;
 }
 
 .try{
@@ -126,31 +134,38 @@ position: absolute;
   
 }
 .header{
-  padding-bottom: 160px;
+  padding-bottom: 180px;
   background-color: rgb(116, 113, 113);
  
  
 }
 .device{
   background-color: rgb(63, 199, 253);
-  padding-bottom: 50px;
+  padding-bottom: 90px;
   
 }
 
 .home-device{
   padding-top: 80px;
   text-align: center;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
+}
+
+.phone{
+  width: 100%;
+    height: auto;
 }
 
 .adult{
+  padding-top: 60px;
   background-color: rgb(14, 165, 90);
-  padding-bottom: 175px;
+  
 }
 .list{
   margin-top: 100px;
-  padding-top:100px;
+  padding-top:50px;
   padding-left: 90px;
+  
 }
 .ul{
   width:85%; 
@@ -160,15 +175,7 @@ position: absolute;
     color: white
 
 }
-.phone{
-  position: absolute;
-  
-  padding-top: 93px;
-  height:auto;
-  width: 25%;
-  right: 250px;
 
-}
 
 .hub{
   position: absolute;
@@ -186,15 +193,129 @@ background-color: white;}
 
 
 .signup{
- 
+ padding-top: 3px;
   color: white;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+
+.signup-btn{
+  color: white;
+  background-color: rgb(132, 247, 166);
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
-.form-inline{
-  text-align: center !important;
+.connect{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
   background-color: rgb(36, 35, 35);
 }
+.form{
+  text-align: center;
+  margin: 0auto;
+}
+input{
+  padding-bottom:5px;
+}
+
+.testone{
+  padding-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: center;
+  background-color: lightgrey;
+}
+.testtwo{
+  padding-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: center;
+  background-color: rgb(184, 183, 183);
+}
+.testthree{padding-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: center;
+  background-color:grey;
+}
+
+.testimonial{
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.center{
+  text-align: center;
+}
+.trial{
+  padding-top: 40px;
+  background-color: rgb(111, 250, 236);
+}
+
+.contact{
+
+  width: 100%;
+  background-color: rgb(36, 35, 35); 
+  display: table;
+  
+}
+
+.support{
+  padding-top: 15px;
+  text-align: center;
+  padding-left: 10px;
+  display: table-cell;
+  color: white;
+
+}
+
+.foot{
+  width: 100%;
+  background-color: rgb(184, 183, 183);
+  margin-bottom: 0;
+  padding-top: 40px;
+}
+
+.left{
+  width: 100%;
+
+}
+.email{
+  margin-left: 80px;
+}
+
+#email{
+  list-style-type: none;
+   padding-top:10px;
+   padding-left: 18px;
+
+}
+#call{
+  padding-top:15px;
+  padding-left: 15px;
+}
 
 
+#email{
+ padding-top:20px;
+}
+span{
+padding: 10px;
+}
 
+.media{
+  width: 100%;
+  display: table;
+}
+.social{
+  display: table-cell;
+  text-align: center;
+  
+}
+.location{
+  float: right;
+  list-style-type: none;
+}
