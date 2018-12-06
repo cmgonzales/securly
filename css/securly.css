@@ -90,13 +90,13 @@ font-family: 'Roboto Slab', serif;
 }
 .view{  
 position: absolute;
-
-  padding-top: 8px;
-  height:auto;
+ padding-top: 8px;
+  height: 80%;
   width: 40%;
   right: 120px;
 
 }
+
 @media only screen and (min-width: 1302px) {
   .view {
     height: 81.5%;
@@ -124,11 +124,15 @@ position: absolute;
   }
 }
 
-@media only screen and (max-width: 1302px) {
+
+
+@media only screen and (max-width: 1390px) {
   .view {
-    padding-top: 15px;
+    height: auto;
+    padding-top: 30px;
   }
 }
+
 
 @media only screen and (max-width: 1190px) {
   .view {
