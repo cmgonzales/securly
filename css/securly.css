@@ -90,7 +90,7 @@ font-family: 'Roboto Slab', serif;
 }
 .view{  
 position: absolute;
- padding-top: 8px;
+ padding-top: 80px;
  height:auto;
   width: 40%;
   right: 120px;
@@ -126,34 +126,21 @@ position: absolute;
 
 
 
-@media only screen and (max-width: 1390px) {
+@media only screen and (max-width: 1210px) {
   .view {
-    
-    padding-top: 30px;
+    padding-top: 90px;
   }
 }
 
-
-@media only screen and (max-width: 1190px) {
-  .view {
-    padding-top: 45px;
-  }
-}
-
-@media only screen and (max-width: 1058px) {
-  .view {
-    padding-top: 75px;
-  }
-}
-
-@media only screen and (max-width: 990px) {
-  .view {
-    padding-top: 88px;
-  }
-}
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1086px) {
   .view {
     padding-top: 120px;
+  }
+}
+
+@media only screen and (max-width: 901px) {
+  .view {
+    padding-top: 160px;
   }
 }
 
@@ -265,7 +252,7 @@ position: absolute;
   
 }
 .header{
-  padding-bottom: 180px;
+  padding-bottom: 230px;
   background-color: rgb(116, 113, 113);
  
  
