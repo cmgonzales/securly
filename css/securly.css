@@ -91,7 +91,7 @@ font-family: 'Roboto Slab', serif;
 .view{  
 position: absolute;
  padding-top: 8px;
-  height: 80%;
+ height:auto;
   width: 40%;
   right: 120px;
 
@@ -99,27 +99,27 @@ position: absolute;
 
 @media only screen and (min-width: 1302px) {
   .view {
-    height: 81.5%;
+    
     width: 38%;
   }
 }
 @media only screen and (min-width: 1522px) {
   .view {
-    height: 83%;
+    
     width: 35%;
   }
 }
 
 @media only screen and (min-width: 1598px) {
   .view {
-    height: 84.5%;
+   
     width: 33%;
   }
 }
 
 @media only screen and (min-width: 1645px) {
   .view {
-    height: 85.5%;
+    
     width: 32%;
   }
 }
@@ -128,7 +128,7 @@ position: absolute;
 
 @media only screen and (max-width: 1390px) {
   .view {
-    height: auto;
+    
     padding-top: 30px;
   }
 }
@@ -171,11 +171,11 @@ position: absolute;
   padding-top: 60px;
   max-height:auto;
   width: 40%;
-  right: 240px; 
+  right: 220px; 
 }
 @media only screen and (min-width: 1645px) {
   .home-secure {
-  right: 200px;
+  right: 190px;
   }
 }
 
@@ -468,7 +468,7 @@ input{
 
 }
 
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 763px) {
   .news{
  display: none;
   }
