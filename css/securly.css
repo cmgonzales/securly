@@ -1,570 +1,568 @@
-
-
 .navbar{
- background-color:white !important;
- padding-left: 30px;
- padding-right: 30px;
- position:static;
-}
-
-.shadow{
-box-shadow: 2px 2px blue!important;
-color: blue;
-border-radius: 25px !important;
-}
-
-.navbar-toggler{
-  background-color: grey!important;
-}
-.logo{
- height: 25px;
- width: 75px;
-}
-.nav-link{
-  padding-right:20px !important;
-  color: black!important;
-}
-
-.navbar-toggler{
-  color: black!important;
-}
-
-@media only screen and (max-width: 750px) {
-  .line {
-    display: none;
-  }
-}
-
-.login{
-  margin-bottom: 10px;
-  
-}
-
-@media only screen and (max-width: 750px) {
-  .login {
-    margin-top:30px;
-  }
-}
-h2{
-  padding-top: 30px;
-  color: white;
-  font-size: 3.1vw;
-  font-family: 'Roboto Slab', serif;
-}
-
-.intro{
-
-padding-top: 30px;
-color: black;
-font-size: 3.1vw;
-font-family: 'Roboto Slab', serif;
-}
-.maintain{
-  
-    padding-top: 130px;
-    color: black;
-    font-size: 3.1vw;
-    font-family: 'Roboto Slab', serif;  
-}
-@media only screen and (max-width: 990px) {
-  .main {
-    font-weight: 500;
-  }
-}
-.kids-device{
-  color: white;
-  font-size: 1.5vw;
-}
-.header{
-  padding-top: 50px;
-  padding-left: 70px;
-}
-
-
-.login{
-  width: 20%;
-  margin-bottom: 40px;
-  font-family: 'Roboto Slab', serif;
-  font-size: 10px;
-  font-weight: bold;
-}
-.view{  
-position: absolute;
- padding-top: 80px;
- height:auto;
-  width: 40%;
-  right: 120px;
-
-}
-
-@media only screen and (min-width: 1302px) {
-  .view {
-    
-    width: 38%;
-  }
-}
-@media only screen and (min-width: 1522px) {
-  .view {
-    
-    width: 35%;
-  }
-}
-
-@media only screen and (min-width: 1598px) {
-  .view {
+  background-color:white !important;
+  padding-left: 30px;
+  padding-right: 30px;
+  position:static;
+ }
+ 
+ .shadow{
+ box-shadow: 2px 2px blue!important;
+ color: blue;
+ border-radius: 25px !important;
+ }
+ 
+ .navbar-toggler{
+   background-color: grey!important;
+ }
+ .logo{
+  height: 25px;
+  width: 75px;
+ }
+ .nav-link{
+   padding-right:20px !important;
+   color: black!important;
+ }
+ 
+ .navbar-toggler{
+   color: black!important;
+ }
+ 
+ @media only screen and (max-width: 750px) {
+   .line {
+     display: none;
+   }
+ }
+ 
+ .login{
+   margin-bottom: 10px;
    
-    width: 33%;
-  }
-}
-
-@media only screen and (min-width: 1645px) {
-  .view {
-    
-    width: 32%;
-  }
-}
-
-
-
-@media only screen and (max-width: 1210px) {
-  .view {
-    padding-top: 90px;
-  }
-}
-
-@media only screen and (max-width: 1086px) {
-  .view {
-    padding-top: 120px;
-  }
-}
-
-@media only screen and (max-width: 901px) {
-  .view {
-    padding-top: 160px;
-  }
-}
-
-
-@media only screen and (max-width: 750px) {
-  .view {
-    display: none;
-  }
-}
-
-
-.home-secure{
-  position: absolute;
-
-  padding-top: 60px;
-  max-height:auto;
-  width: 40%;
-  right: 220px; 
-}
-@media only screen and (min-width: 1645px) {
-  .home-secure {
-  right: 175px;
-  }
-}
-
-
-@media only screen and (max-width: 990px) {
-  .home-secure{
-    right: 130px;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  .home-secure{
-    right: 30px;
-  }
-}
-
-.security{
-  padding-top:100px;
-  padding-bottom: 180px;
-}
-
-.app{
-  height: 20%;
-}
-.btns{
-  border-radius: 25px !important;
-  color: black !important;
-  background-color: white !important;
-}
-
-@media only screen and (max-width: 448px) {
-  .iphone-btns{
-    padding-left: 40px;
-    padding-right: 70px;
-
-    
-
-  
-}
-}
-
-@media only screen and (max-width: 350px) {
-  .phone-app{
-    margin-top:10px;
-    
-
-  
-}
-}
-
-@media only screen and (max-width: 450px) {
-  .maintain{
-  font-size: 30px;
-    
-
-  
-}
-}
-
-
-
-.buy{
-  border-radius: 25px ;
-  color: white;
-  background-color: blue;
-  padding: 10px 20px;
-  margin-bottom: 20px;
-}
-
-.try{
-  opacity: .6;
-  border-radius: 25px ;
-  background-color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-bottom: 60px;
-
-}
-.mobile-header{
-
-  height: 30px;
-  width: 90px;
-}
-#view-activity{
-  color: white;
-  font-size: 40px;
-  
-}
-.header{
-  padding-bottom: 230px;
-  background-color: rgb(116, 113, 113);
+ }
+ 
+ @media only screen and (max-width: 750px) {
+   .login {
+     margin-top:30px;
+   }
+ }
+ h2{
+   padding-top: 30px;
+   color: white;
+   font-size: 3.1vw;
+   font-family: 'Roboto Slab', serif;
+ }
+ 
+ .intro{
+ 
+ padding-top: 30px;
+ color: black;
+ font-size: 3.1vw;
+ font-family: 'Roboto Slab', serif;
+ }
+ .maintain{
+   
+     padding-top: 130px;
+     color: black;
+     font-size: 3.1vw;
+     font-family: 'Roboto Slab', serif;  
+ }
+ @media only screen and (max-width: 990px) {
+   .main {
+     font-weight: 500;
+   }
+ }
+ .kids-device{
+   color: white;
+   font-size: 1.5vw;
+ }
+ .header{
+   padding-top: 50px;
+   padding-left: 70px;
+ }
  
  
-}
-.device{
-  background-color: rgb(63, 199, 253);
-  padding-bottom: 90px;
-  
-}
-
-.home-device{
+ .login{
+   width: 20%;
+   margin-bottom: 40px;
+   font-family: 'Roboto Slab', serif;
+   font-size: 10px;
+   font-weight: bold;
+ }
+ .view{  
+ position: absolute;
   padding-top: 80px;
-  text-align: center;
-  padding-bottom: 40px;
-}
-
-@media only screen and (max-width: 750px) {
-  .home-device{
-    padding-top: 40px;
-    padding-bottom: 20px;
-  }
-}
-
-.phone{
-  width: 100%;
-    height: auto;
-}
-
-@media only screen and (max-width: 750px) {
-  .phone {
-    display: none;
-  }
-}
-
-.adult{
-  padding-top: 60px;
-  background-color: rgb(14, 165, 90);
-  
-}
-
-
-.list{
-  margin-top: 100px;
-  padding-top:50px;
-  padding-left: 90px;
-  
-}
-
-@media only screen and (max-width: 990px) {
-  .list{
-margin-top: 0px;
-  }
-  
-}
-
-@media only screen and (max-width: 850px) {
-  .list {
-    padding-top: 0px;
-  }
-}
-@media only screen and (max-width: 750px) {
-  .list {
-   padding-bottom: 45px;
-  }
-}
-.ul{
-  width:85%; 
-    padding: 0 0 2px;
-    margin: 20px;
-    text-align: left;
-    color: white
-
-}
-
-
-.hub{
-  position: absolute;
-  padding-top: 93px;
-  width: 40%;
   height:auto;
-  padding-right: 40px;
-}
-
-.setup{
-  width: 100%;
-padding-bottom: 180px;
-background-color: white;}
-
-
-
-.signup{
- padding-top: 3px;
-  color: white;
-  margin-right: 5px;
-  margin-bottom: 0;
-}
-
-.signup-btn{
-  color: white;
-  background-color: rgb(132, 247, 166);
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-
-.connect{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 100%;
-  background-color: rgb(36, 35, 35);
-}
-
-.form-inline{
-width: 670px!important;
-margin: 0 auto;
-}
-@media only screen and (max-width: 750px) {
-  .form-inline{
- width: 300px!important;
-  }
+   width: 40%;
+   right: 120px;
+ 
+ }
+ 
+ @media only screen and (min-width: 1302px) {
+   .view {
+     
+     width: 38%;
+   }
+ }
+ @media only screen and (min-width: 1522px) {
+   .view {
+     padding-top:95px;
+     width: 35%;
+   }
+ }
+ 
+ @media only screen and (min-width: 1709px) {
+   .view {
+    padding-top:150px;
+     width: 33%;
+   }
+ }
+ 
+ @media only screen and (min-width: 1645px) {
+   .view {
+     
+     width: 32%;
+   }
+ }
+ 
+ 
+ 
+ @media only screen and (max-width: 1210px) {
+   .view {
+     padding-top: 90px;
+   }
+ }
+ 
+ @media only screen and (max-width: 1086px) {
+   .view {
+     padding-top: 120px;
+   }
+ }
+ 
+ @media only screen and (max-width: 901px) {
+   .view {
+     padding-top: 160px;
+   }
+ }
+ 
+ 
+ @media only screen and (max-width: 750px) {
+   .view {
+     display: none;
+   }
+ }
+ 
+ 
+ .home-secure{
+   position: absolute;
+ 
+   padding-top: 60px;
+   max-height:auto;
+   width: 35%;
+   right: 220px; 
+ }
+ @media only screen and (min-width: 1645px) {
+   .home-secure {
+   right: 175px;
+   }
+ }
+ 
+ 
+ @media only screen and (max-width: 990px) {
+   .home-secure{
+     right: 130px;
+   }
+ }
+ 
+ @media only screen and (max-width: 750px) {
+   .home-secure{
+     right: 30px;
+   }
+ }
+ 
+ .security{
+   padding-top:100px;
+   padding-bottom: 180px;
+ }
+ 
+ .app{
+   height: 20%;
+ }
+ .btns{
+   border-radius: 25px !important;
+   color: black !important;
+   background-color: white !important;
+ }
+ 
+ @media only screen and (max-width: 448px) {
+   .iphone-btns{
+     padding-left: 40px;
+     padding-right: 70px;
+ 
+     
+ 
+   
+ }
+ }
+ 
+ @media only screen and (max-width: 350px) {
+   .phone-app{
+     margin-top:10px;
+     
+ 
+   
+ }
+ }
+ 
+ @media only screen and (max-width: 450px) {
+   .maintain{
+   font-size: 30px;
+     
+ 
+   
+ }
+ }
+ 
+ 
+ 
+ .buy{
+   border-radius: 25px ;
+   color: white;
+   background-color: blue;
+   padding: 10px 20px;
+   margin-bottom: 20px;
+ }
+ 
+ .try{
+   opacity: .6;
+   border-radius: 25px ;
+   background-color: white;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-bottom: 60px;
+ 
+ }
+ .mobile-header{
+ 
+   height: 30px;
+   width: 90px;
+ }
+ #view-activity{
+   color: white;
+   font-size: 40px;
+   
+ }
+ .header{
+   padding-bottom: 230px;
+   background-color: rgb(116, 113, 113);
   
-}
-
-@media only screen and (max-width: 750px) {
-  .signup{
-text-align: center;
-  }
-}
-.form{
-  text-align: center;
-  margin: 0auto;
-}
-input{
-  padding-bottom:5px;
-}
-
-.testone{
-  padding-top: 50px;
-  padding-left: 80px;
-  padding-right: 80px;
-  text-align: center;
-  background-color: lightgrey;
-}
-.testtwo{
-  padding-top: 50px;
-  padding-left: 80px;
-  padding-right: 80px;
-  text-align: center;
-  background-color: rgb(184, 183, 183);
-}
-.testthree{padding-top: 50px;
-  padding-left: 80px;
-  padding-right: 80px;
-  text-align: center;
-  background-color:grey;
-}
-
-.testimonial{
-  padding-top: 30px;
-  padding-bottom: 40px;
-}
-
-.center{
-  text-align: center;
-}
-.trial{
-  padding-top: 40px;
-  background-color: rgb(111, 250, 236);
-}
-
-@media only screen and (max-width: 750px) {
-  .home-image{
-   display: none;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  .trials{
+  
+ }
+ .device{
+   background-color: rgb(63, 199, 253);
+   padding-bottom: 90px;
+   
+ }
+ 
+ .home-device{
+   padding-top: 80px;
    text-align: center;
-   padding-bottom: 70px;
-  }
-}
-
-
-
-.contact{
-
-  width: 100%;
-  background-color: rgb(36, 35, 35); 
-  display: table;
-  
-}
-
-.support{
-  padding-top: 15px;
-  text-align: center;
-  padding-left: 10px;
-  display: table-cell;
-  color: white;
-
-}
-
-@media only screen and (max-width: 763px) {
-  .news{
- display: none;
-  }
-  
-}
-
-.foot{
-  width: 100%;
-  background-color: rgb(184, 183, 183);
-  margin-bottom: 0;
-  padding-top: 40px;
-}
-
-.left{
-  width: 100%;
-
-}
-.email{
-  margin-left: 80px;
-}
-
-#email{
-  list-style-type: none;
-   padding-top:10px;
-   padding-left: 18px;
-
-}
-#call{
-  padding-top:15px;
-  padding-left: 15px;
-}
-
-
-#email{
- padding-top:20px;
-}
-span{
-padding: 10px;
-}
-
-.media{
-  width: 100%;
-  display: table;
-  float: left;
-}
-.social{
-  display: table-cell;
-  text-align: center;
-  
-}
-.location{
-  float: right;
-  list-style-type: none;
-}
-
-@media only screen and (max-width: 990px) {
-  .location{
- font-size:12px;
-  }
-  
-}
-
-@media only screen and (max-width: 990px) {
-  #call{
- font-size:12px;
-  }
-  
-}
-
-@media only screen and (max-width: 750px) {
-  .left{
-    padding-top: 10px;
- padding-left: 100px;
-  }
-  
-}
-
-@media only screen and (max-width: 990px) {
-  #email{
- font-size:12px;
-  }
-  
-}
-
-@media only screen and (max-width: 990px) {
-  .media{
- display: none;
-  }
-  
-}
-@media only screen and (max-width: 990px) {
-  .location{
- display: none;
-  }
-  
-}
-
-
-@media only screen and (max-width: 580px) {
-  .head{
- font-size: 30px;
-  }
-  
-}
-
-@media only screen and (max-width: 448px) {
-  .middle{
+   padding-bottom: 40px;
+ }
+ 
+ @media only screen and (max-width: 750px) {
+   .home-device{
+     padding-top: 40px;
+     padding-bottom: 20px;
+   }
+ }
+ 
+ .phone{
+   width: 100%;
+     height: auto;
+ }
+ 
+ @media only screen and (max-width: 750px) {
+   .phone {
+     display: none;
+   }
+ }
+ 
+ .adult{
+   padding-top: 60px;
+   background-color: rgb(14, 165, 90);
+   
+ }
+ 
+ 
+ .list{
+   margin-top: 100px;
+   padding-top:50px;
+   padding-left: 90px;
+   
+ }
+ 
+ @media only screen and (max-width: 990px) {
+   .list{
+ margin-top: 0px;
+   }
+   
+ }
+ 
+ @media only screen and (max-width: 850px) {
+   .list {
+     padding-top: 0px;
+   }
+ }
+ @media only screen and (max-width: 750px) {
+   .list {
+    padding-bottom: 45px;
+   }
+ }
+ .ul{
+   width:85%; 
+     padding: 0 0 2px;
+     margin: 20px;
+     text-align: left;
+     color: white
+ 
+ }
+ 
+ 
+ .hub{
+   position: absolute;
+   padding-top: 93px;
+   width: 30%;
+   height:auto;
+   padding-right: 40px;
+ }
+ 
+ .setup{
+   width: 100%;
+ padding-bottom: 180px;
+ background-color: white;}
+ 
+ 
+ 
+ .signup{
+  padding-top: 3px;
+   color: white;
+   margin-right: 5px;
+   margin-bottom: 0;
+ }
+ 
+ .signup-btn{
+   color: white;
+   background-color: rgb(132, 247, 166);
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+ 
+ 
+ .connect{
+   padding-top: 20px;
+   padding-bottom: 20px;
+   width: 100%;
+   background-color: rgb(36, 35, 35);
+ }
+ 
+ .form-inline{
+ width: 670px!important;
+ margin: 0 auto;
+ }
+ @media only screen and (max-width: 750px) {
+   .form-inline{
+  width: 300px!important;
+   }
+   
+ }
+ 
+ @media only screen and (max-width: 750px) {
+   .signup{
  text-align: center;
- width: 90%;
-  }
-  
-}
+   }
+ }
+ .form{
+   text-align: center;
+   margin: 0auto;
+ }
+ input{
+   padding-bottom:5px;
+ }
+ 
+ .testone{
+   padding-top: 50px;
+   padding-left: 80px;
+   padding-right: 80px;
+   text-align: center;
+   background-color: lightgrey;
+ }
+ .testtwo{
+   padding-top: 50px;
+   padding-left: 80px;
+   padding-right: 80px;
+   text-align: center;
+   background-color: rgb(184, 183, 183);
+ }
+ .testthree{padding-top: 50px;
+   padding-left: 80px;
+   padding-right: 80px;
+   text-align: center;
+   background-color:grey;
+ }
+ 
+ .testimonial{
+   padding-top: 30px;
+   padding-bottom: 40px;
+ }
+ 
+ .center{
+   text-align: center;
+ }
+ .trial{
+   padding-top: 40px;
+   background-color: rgb(111, 250, 236);
+ }
+ 
+ @media only screen and (max-width: 750px) {
+   .home-image{
+    display: none;
+   }
+ }
+ 
+ @media only screen and (max-width: 750px) {
+   .trials{
+    text-align: center;
+    padding-bottom: 70px;
+   }
+ }
+ 
+ 
+ 
+ .contact{
+ 
+   width: 100%;
+   background-color: rgb(36, 35, 35); 
+   display: table;
+   
+ }
+ 
+ .support{
+   padding-top: 15px;
+   text-align: center;
+   padding-left: 10px;
+   display: table-cell;
+   color: white;
+ 
+ }
+ 
+ @media only screen and (max-width: 763px) {
+   .news{
+  display: none;
+   }
+   
+ }
+ 
+ .foot{
+   width: 100%;
+   background-color: rgb(184, 183, 183);
+   margin-bottom: 0;
+   padding-top: 40px;
+ }
+ 
+ .left{
+   width: 100%;
+ 
+ }
+ .email{
+   margin-left: 80px;
+ }
+ 
+ #email{
+   list-style-type: none;
+    padding-top:10px;
+    padding-left: 18px;
+ 
+ }
+ #call{
+   padding-top:15px;
+   padding-left: 15px;
+ }
+ 
+ 
+ #email{
+  padding-top:20px;
+ }
+ span{
+ padding: 10px;
+ }
+ 
+ .media{
+   width: 100%;
+   display: table;
+   float: left;
+ }
+ .social{
+   display: table-cell;
+   text-align: center;
+   
+ }
+ .location{
+   float: right;
+   list-style-type: none;
+ }
+ 
+ @media only screen and (max-width: 990px) {
+   .location{
+  font-size:12px;
+   }
+   
+ }
+ 
+ @media only screen and (max-width: 990px) {
+   #call{
+  font-size:12px;
+   }
+   
+ }
+ 
+ @media only screen and (max-width: 750px) {
+   .left{
+     padding-top: 10px;
+  padding-left: 100px;
+   }
+   
+ }
+ 
+ @media only screen and (max-width: 990px) {
+   #email{
+  font-size:12px;
+   }
+   
+ }
+ 
+ @media only screen and (max-width: 990px) {
+   .media{
+  display: none;
+   }
+   
+ }
+ @media only screen and (max-width: 990px) {
+   .location{
+  display: none;
+   }
+   
+ }
+ 
+ 
+ @media only screen and (max-width: 580px) {
+   .head{
+  font-size: 30px;
+   }
+   
+ }
+ 
+ @media only screen and (max-width: 448px) {
+   .middle{
+  text-align: center;
+  width: 90%;
+   }
+   
+ }
